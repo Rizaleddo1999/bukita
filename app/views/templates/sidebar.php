@@ -17,7 +17,7 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
                 <li class="nav-item">
-                    <a href="index.php" class="nav-link">
+                    <a href="<?= base_url; ?>/home" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
                             Beranda
@@ -25,7 +25,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.php" class="nav-link">
+                    <a href="<?= base_url; ?>/kategori" class="nav-link">
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Kategori
@@ -33,7 +33,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.php" class="nav-link">
+                    <a href="<?= base_url; ?>/buku" class="nav-link">
                         <i class="nav-icon fas fa-book"></i>
                         <p>
                             Buku
@@ -41,7 +41,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.php" class="nav-link">
+                    <a href="<?= base_url; ?>/aboutme" class="nav-link">
                         <i class="nav-icon fas fa-user"></i>
                         <p>
                             Tentang Saya
