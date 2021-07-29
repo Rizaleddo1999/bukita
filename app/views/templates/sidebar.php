@@ -41,7 +41,15 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?= base_url; ?>/aboutme" class="nav-link">
+                    <a href="<?= base_url; ?>/user" class="nav-link">
+                        <i class="nav-icon fas fa-user"></i>
+                        <p>
+                            Pengguna
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="<?= base_url; ?>/about" class="nav-link">
                         <i class="nav-icon fas fa-user"></i>
                         <p>
                             Tentang Saya
